@@ -52,4 +52,21 @@ Operate on a single operand.
 A shorthand for an if-else statement.
 **Example**: condition ? expression1 : expression2.
 
+**Expressins**An expression is a combination of values, variables, and operators that evaluates to a single value. Expressions can be simple (e.g., a single value or variable) or complex (involving multiple operators and operands).
+
+### Types of Expressions:
+
++ Arithmetic Expressions:
+
+Use arithmetic operators to perform calculations.
+**Example**: let total = price * quantity;
+
++ Comparison Expressions:
+
+Use comparison operators to evaluate conditions.
+**Example**: let isAdult = age >= 18;
+
++ Logical Expressions:
+Combine multiple conditions using logical operators.
+**Example**: let canVote = (age >= 18) && (citizen === true);
 
