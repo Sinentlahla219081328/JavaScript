@@ -1,6 +1,7 @@
 
 # Variables and data types
-####What is a Variable? -  a variable is a container for storing data.
+#### What is a Variable? -  
+a variable is a container for storing data.
 
 
 You declare variables using  var, const and let.
