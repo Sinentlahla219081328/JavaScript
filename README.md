@@ -23,6 +23,33 @@ You declare variables using  var, const and let.
 
 ### Types of Operators:
 + Arithmetic Operators:
-  
- Used for mathematical calculations.
+
+Used for mathematical calculations.
 **Examples**: + (addition), - (subtraction), * (multiplication), / (division), % (modulus), and ** (exponentiation).
+
++ Assignment Operators:
+
+Used to assign values to variables.
+**Examples**: = (assign), += (add and assign), -= (subtract and assign), *= (multiply and assign), /= (divide and assign).
+
++ Comparison Operators:
+
+Used to compare values and return a boolean (true or false).
+**Examples**: == (equal), != (not equal), === (strict equal), !== (strict not equal), > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to).
+
++ Logical Operators:
+
+Used to combine multiple conditions.
+**Examples**: && (AND), || (OR), ! (NOT).
+
++ Unary Operators:
+
+Operate on a single operand.
+**Examples**: ++ (increment), -- (decrement), typeof (type of operand).
+
++ Ternary Operator:
+
+A shorthand for an if-else statement.
+**Example**: condition ? expression1 : expression2.
+
+
