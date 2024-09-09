@@ -7,11 +7,10 @@ You declare variables using  var, const and let.
 
 + **var**: Has function scope and can be redeclared.
 + **let**: Has block scope and can be reassigned but not redeclared within the same scope.
-+ **const**: Also has block scope, but it cannot be reassigned or redeclared, making it ideal for values that should not change.
-
-  ###  Data Types:
++ **const**: Also has block scope, but it cannot be reassigned or redeclared, making it ideal for values that should not chan
+###  Data Types:
    A data type define the type of data that a variable can hold.
-  ### Common Data Types:
+### Common Data Types:
 + **Numbers**: Used for numeric values (e.g., integers and floating-point numbers).
 + **Strings**: A sequence of characters used to represent text.
 + **Booleans**: Represents true or false, typically used in conditions and logical operations.
@@ -20,9 +19,10 @@ You declare variables using  var, const and let.
 
 # Operators and expressions
 
-##### Operators: Operators are symbols or keywords used to perform operations on values (operands). 
+**Operators** are symbols or keywords used to perform operations on values (operands). 
 
 ### Types of Operators:
 + Arithmetic Operators:
+  
  Used for mathematical calculations.
-** Examples**: + (addition), - (subtraction), * (multiplication), / (division), % (modulus), and ** (exponentiation).
+**Examples**: + (addition), - (subtraction), * (multiplication), / (division), % (modulus), and ** (exponentiation).
