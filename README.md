@@ -7,7 +7,7 @@ You declare variables using  var, const and let.
 
 + **var**: Has function scope and can be redeclared.
 + **let**: Has block scope and can be reassigned but not redeclared within the same scope.
-+ **const**: Also has block scope, but it cannot be reassigned or redeclared, making it ideal for values that should not chan
++ **const**: Also has block scope, but it cannot be reassigned or redeclared, making it ideal for values that should not change
 ###  Data Types:
    A data type define the type of data that a variable can hold.
 ### Common Data Types:
