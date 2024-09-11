@@ -88,3 +88,25 @@ Combine multiple conditions using logical operators.
 + case Labels: Each case contains the code to execute if the expression matches the label.
 + break Statement: Stops the execution of more cases after a match is found. Without break, the code will continue executing the subsequent cases (this is called "fall-through").
 + default Case: Executes if no matching case is found; it's optional but often used as a fallback.
+
+#Functions and Scope
+
+A function is a reusable block of code designed to perform a specific task. Functions allow developers to write code once and use it multiple times, which enhances code efficiency and readability.
+
++ **Function Declaration**- A function can be declared using the function keyword, followed by a name, a list of parameters (optional), and a block of code (the function body).
++ **Calling Functions:** To execute the code within a function, you call the function by its name, followed by parentheses, optionally passing in arguments.
+  
+### Scope
+
+Scope determines the accessibility of variables and functions in different parts of the code. Understanding scope is vital for avoiding errors related to variable accessibility and for writing cleaner, more maintainable code.
+
+### Types of Scope:
+
++ Global Scope: Variables declared outside of any function or block have global scope and can be accessed from anywhere in the code.
++ Local Scope: Variables declared within a function or block are local to that function or block and cannot be accessed from outside it.
++ Function Scope: Variables declared within a function are accessible only within that function.
++ Block Scope: Variables declared with let or const within a block ({}) are accessible only within that block.
+
+
+
+  
