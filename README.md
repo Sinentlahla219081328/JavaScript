@@ -70,3 +70,20 @@ Use comparison operators to evaluate conditions.
 Combine multiple conditions using logical operators.
 **Example**: let canVote = (age >= 18) && (citizen === true);
 
+# Control Structures
+
+### if...else statement
+
++ if specify  a block of code to be executed when specified condition is true.
++ else if specify a block of code to be executed if the previous condition is false.
++ else specify a block of code to be executed if none of the previous conditions are true.
+
+### switch statement
+
++ switch is a control structure used for executing one block of code among many based on the value of an expression
+####Switch structure
+
++ switch Keyword: Evaluates an expression and matches it to one of several case labels.
++ case Labels: Each case contains the code to execute if the expression matches the label.
++ break Statement: Stops the execution of more cases after a match is found. Without break, the code will continue executing the subsequent cases (this is called "fall-through").
++ default Case: Executes if no matching case is found; it's optional but often used as a fallback.
