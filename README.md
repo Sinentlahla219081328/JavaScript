@@ -89,7 +89,7 @@ Combine multiple conditions using logical operators.
 + break Statement: Stops the execution of more cases after a match is found. Without break, the code will continue executing the subsequent cases (this is called "fall-through").
 + default Case: Executes if no matching case is found; it's optional but often used as a fallback.
 
-#Functions and Scope
+# Functions and Scope
 
 A function is a reusable block of code designed to perform a specific task. Functions allow developers to write code once and use it multiple times, which enhances code efficiency and readability.
 
