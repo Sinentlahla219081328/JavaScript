@@ -81,7 +81,8 @@ Combine multiple conditions using logical operators.
 ### switch statement
 
 + switch is a control structure used for executing one block of code among many based on the value of an expression
-####Switch structure
+  
+#### Switch structure
 
 + switch Keyword: Evaluates an expression and matches it to one of several case labels.
 + case Labels: Each case contains the code to execute if the expression matches the label.
