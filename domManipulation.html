@@ -1,0 +1,84 @@
+<html></html>
+<body>
+
+
+<h1 id="demo_1">Heading</h1>
+<p id="one">Paragraph</p>
+
+
+<h2>JavaScript HTML DOM</h2>
+
+<p id="par_1">Finding HTML Elements by Id</p>
+<p>This example demonstrates the <b>getElementsById</b> method.</p>
+<p class = "intro">Findind HTML elements by tag name</p>
+<p id="demo"></p>
+<p id="dem">Hello</p>
+<p id="demore">Hello 1</p>
+<p id="d"></p>
+
+
+
+<h3 id="heading_3">JavaScript Bootcamp</h3>
+
+<img id ="image"  width="250px" height="250px">
+
+<script>
+    // First example: Here I used getElementById() method to get elements h1 and p and I changed the content using textContent and innerHTML properties
+    document.getElementById("demo_1").innerHTML= "Welcome to JavaScript";
+    document.getElementById("one").textContent = "This paragraph get element by its unique id";
+
+    //Second example to get element by id
+   let paragraph = document.getElementById("par_1");
+   document.getElementById("demo").textContent="The text from the par1 paragraph is" + " "+ paragraph.textContent;
+
+   //Third example: get elements by id and modify its content using textContent property
+  const heading = document.getElementById("heading_3");
+  heading.textContent = "Welcome to the JavaScript Bootcamp";
+
+  //This Example show how to use getElementByTagName()method
+   let para = document.getElementsByTagName("p");
+   document.getElementById("dem").textContent = "The text in fourth paragraph (index 3) is: "  + para[3].textContent;
+
+   //This example show how to get element by class name
+  document.getElementsByClassName("intro");
+  document.getElementById("demore").textContent = "The 5 paragraph is :" + para[3].textContent;
+
+  // Changing the style of an element 
+  para = document.querySelector(".intro");
+  para.style.color="blue";
+
+  // add and removing class name
+  para.classList.add("classAdd");
+  para.classList.remove("intro");
+
+  // These examples show how to create html elements and add them to DOM using appendChild()
+  let newdev = document.createElement("div");
+  newdev.textContent=" This is a new paragraph inside a div created using createElement method";
+  document.body.appendChild(newdev);
+  newdev.classList.add("divClass");
+
+
+  let newHeading = document.createElement("h1");
+  newHeading.textContent=" This is a new heading added using createElement()";
+  document.body.appendChild(newHeading);
+  newHeading.classList.add("head");
+
+
+  //set attributes
+   let image1 = document.getElementById("image");
+   image1.setAttribute('src','robicon.png' );
+   
+   let attribute = document.getElementById("image");
+    attribute.setAttribute('alt','logo');
+
+  // modify an attribute
+  attribute.alt="Rubicon Logo";
+  
+  //removing an  alt attribute 
+  attribute.removeAttribute("alt");
+  
+</script>
+
+</body>
+</html>
+
