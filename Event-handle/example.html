@@ -1,0 +1,54 @@
+<html>
+<body>
+
+<button id="btn" name = submit>Submit</button>
+<p id="demo"></p>
+
+
+<h1>Inline Event Handlers</h1>
+<h2>The onclick Attribute</h2>
+<p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">Get Date</button>
+ <p id="intro"></p>
+<script>
+ //selecting a button
+  let button = document.querySelector("#btn");
+  button.style.color="Black";
+  button.style.fontSize=24;
+  button.style.backgroundColor="Red";
+  // add a click event
+  button.addEventListener("click",function(event){
+  //button.textContent ="Submit button is clicked!";
+  button = document.getElementById("demo").textContent= "Submit button is clicked!";
+  
+
+  // print to console the event type and text when a button is clicked
+  console.log("Event type: ", event.type);
+  console.log("Button Text:",event.target.textContent);
+
+  });
+
+ // add event when you mouseover a button
+  button.addEventListener("mouseover",function(){
+  
+  button.style.color="white";
+  button.style.backgroundColor="green";
+  });
+  // add a mouseout event when you  move a mouse from a button
+  button.addEventListener("mouseout",function(){
+  
+  button.style.color="";
+  button.style.backgroundColor="red";
+  });
+
+ function displayDate(){
+    document.getElementById("intro").textContent= " The date today is : "+ " " + Date();
+
+ }
+
+</script>
+</body>
+
+
+</html>
